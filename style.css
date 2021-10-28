@@ -1,0 +1,164 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+
+.top, .footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 0px 120px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 300px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-list {
+    display: flex;
+    gap: 20px;
+}
+
+.intro {
+    display: flex;
+    padding: 100px 300px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px
+}
+
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.intro-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.intro-text {
+    margin: 0;
+}
+
+.intro-image img {
+    height: auto;
+    width: 400px;
+    border-radius: 12px;
+}
+
+.intro-button {
+    padding: 10px 40px;
+    margin: 10px 0;
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+ul {
+    padding: 0;
+}
+li {
+    list-style-type: none;
+    
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0 100px 0;
+    gap: 20px;
+}
+
+.information-content {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px
+}
+
+.information-box img {
+    height: auto;
+    width: 150px;
+    border-radius: 12px;
+}
+
+.image-captions {
+    font-size: 18px;
+    color: #8b8b8b;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 100px 350px;
+
+}
+
+.quote-content {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #3b3b3b;
+    margin: 0;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 1000px;
+    margin: 80px 0;
+    padding: 40px 0;
+    align-self: center;
+    color: white;
+    
+
+}
+
+.action-title, .action-text {
+    margin: 0;
+}
+
+.action-title {
+    font-size: larger;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}

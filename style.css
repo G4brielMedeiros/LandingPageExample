@@ -27,6 +27,7 @@ body {
     font-size: 24px;
     font-weight: bolder;
     color: #F9FAF8;
+    text-align: center;
 }
 
 .header-link {
@@ -34,9 +35,13 @@ body {
     color: #E5E7EB;
 }
 
+
+
 .header-list {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
 }
 
 .intro {
@@ -67,7 +72,8 @@ body {
 
 .intro-image img {
     height: auto;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     border-radius: 12px;
 }
 
@@ -134,7 +140,8 @@ a {
 
 .information-box img {
     height: auto;
-    width: 150px;
+    width: 100%;
+    max-width: 150px;
     border-radius: 12px;
 }
 
@@ -203,10 +210,15 @@ a {
     padding: 10px 0;
     color: white;
     font-weight: bold;
+    
 }
+
+
+
 
 .footer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
     padding: 20px 0;

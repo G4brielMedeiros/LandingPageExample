@@ -121,6 +121,10 @@ a {
     gap: 20px;
 }
 
+.information-title {
+    text-align: center;
+}
+
 .information-content {
     display: flex;
     flex-flow: row wrap;
@@ -160,6 +164,7 @@ a {
 
 .quote-signature {
     font-weight: lighter;
+    font-style: italic;
 }
 
 .action {

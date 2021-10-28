@@ -1,25 +1,26 @@
 body {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
-
 
 
 
 .top, .footer {
     background-color: #1F2937;
     color: white;
-    padding: 0px 120px;
+    width: 100%;
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 0 300px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .header-logo {
@@ -40,27 +41,28 @@ body {
 
 .intro {
     display: flex;
-    padding: 100px 300px;
+    padding: 100px 20px;
     align-items: center;
-    justify-content: space-between;
-    gap: 30px
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .intro-content {
     display: flex;
     flex-direction: column;
     align-items: baseline;
+    max-width: 490px;
 }
 
 .intro-title {
     font-size: 48px;
-    font-weight: bolder;
     color: #F9FAF8;
     margin: 0;
 }
 
 .intro-text {
-    margin: 0;
+    margin: 10px 0;
 }
 
 .intro-image img {
@@ -89,6 +91,12 @@ li {
     
 }
 
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+    text-align: center;
+}
+
 .information {
     display: flex;
     flex-direction: column;
@@ -100,7 +108,8 @@ li {
 .information-content {
     display: flex;
     flex-flow: row wrap;
-    gap: 30px
+    gap: 30px;
+    justify-content: center;
 }
 
 .information-box img {
@@ -119,7 +128,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding: 100px 350px;
+    padding: 100px 10%;
 
 }
 
@@ -133,32 +142,45 @@ li {
 
 .action {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 100px;
+    flex-wrap: wrap;
+    gap: 20px;
 
     background-color: #3882F6;
     border-radius: 8px;
-    width: 1000px;
+    width: 70%;
     margin: 80px 0;
-    padding: 40px 0;
-    align-self: center;
+    padding: 40px 10px;
     color: white;
     
 
 }
 
+
 .action-title, .action-text {
     margin: 0;
 }
 
+
 .action-title {
     font-size: larger;
+}
+
+.action-button {
+    background-color: transparent;
+    border-radius: 9px;
+    border: solid;
+    border-width: 2px;
+    border-color: white;
+    padding: 10px 40px;
+    color: white;
+    font-weight: bold;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-content: center;
-    padding: 20px;
+    padding: 20px 0;
 }

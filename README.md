@@ -1,6 +1,8 @@
 # LandingPageExample
 This is a landing page template for a website, made purely with HTML and CSS.
 
+[Check it our here!](https://g4brielmedeiros.github.io/LandingPageExample/)
+
 
 ## Image credits
 

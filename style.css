@@ -72,7 +72,7 @@ body {
 }
 
 .intro-button {
-    padding: 10px 40px;
+    padding: 10px 0;
     margin: 10px 0;
     background-color: #3882F6;
     border: 0;
@@ -80,8 +80,24 @@ body {
     color: white;
     font-weight: bold;
     font-size: 20px;
-    
 }
+
+button:hover {
+    background-color: #2e6bce;
+
+}
+
+button:active {
+    background-color: #1d4079;
+
+}
+
+
+
+button a {
+    padding: 10px 40px;
+}
+
 
 ul {
     padding: 0;
@@ -121,6 +137,8 @@ a {
 .image-captions {
     font-size: 18px;
     color: #8b8b8b;
+    max-width: 150px;
+    text-align: center;
 }
 
 .quote {
@@ -138,6 +156,10 @@ a {
     font-weight: lighter;
     color: #3b3b3b;
     margin: 0;
+}
+
+.quote-signature {
+    font-weight: lighter;
 }
 
 .action {
@@ -173,14 +195,14 @@ a {
     border: solid;
     border-width: 2px;
     border-color: white;
-    padding: 10px 40px;
+    padding: 10px 0;
     color: white;
     font-weight: bold;
 }
 
 .footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-content: center;
     padding: 20px 0;
 }
